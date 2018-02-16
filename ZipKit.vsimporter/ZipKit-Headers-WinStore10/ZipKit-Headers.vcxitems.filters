@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Supporting Files">
+      <UniqueIdentifier>{56860980-D13D-4393-A890-A4384CB896E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit">
+      <UniqueIdentifier>{9328C30D-2864-43BB-9EAA-82AF85FE7D8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\Archive Objects">
+      <UniqueIdentifier>{EF2817D6-3C49-4FCB-A62A-2D71416935F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\Categories">
+      <UniqueIdentifier>{3D115CE1-74A3-42B8-A97C-9EAEFA898A9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\MacFUSE">
+      <UniqueIdentifier>{926CB64C-D2B5-4F6F-9CA3-D8E9372FDD7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\ZKLog">
+      <UniqueIdentifier>{B7ABA44B-66E7-49F3-9D22-902D372C6CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\Zip Records">
+      <UniqueIdentifier>{5D2AC7E4-74CC-4558-B69F-42C5491582D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\GMAppleDouble+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\MacFUSE\GMAppleDouble.h">
+      <Filter>ZipKit\MacFUSE</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\NSData+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\NSDate+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\NSDictionary+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\NSFileHandle+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\NSFileManager+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\NSString+ZKAdditions.h">
+      <Filter>ZipKit\Categories</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKArchive.h">
+      <Filter>ZipKit\Archive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKCDHeader.h">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKCDTrailer.h">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKCDTrailer64.h">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKCDTrailer64Locator.h">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKDataArchive.h">
+      <Filter>ZipKit\Archive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKDefs.h">
+      <Filter>ZipKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKFileArchive.h">
+      <Filter>ZipKit\Archive Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKLFHeader.h">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZKLog.h">
+      <Filter>ZipKit\ZKLog</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZipKit-Prefix.pch">
+      <Filter>Supporting Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ZipKit\ZipKit.h">
+      <Filter>ZipKit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

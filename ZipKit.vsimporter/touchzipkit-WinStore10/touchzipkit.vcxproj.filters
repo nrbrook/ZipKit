@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ZipKit">
+      <UniqueIdentifier>{D0FE34B1-9DED-4C3D-AC15-3FD27890FDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\Archive Objects">
+      <UniqueIdentifier>{DF48119D-C62D-453A-A33F-1EE22626370D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\Categories">
+      <UniqueIdentifier>{251AE9E1-9EAE-4188-B08F-68BD822EC419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\ZKLog">
+      <UniqueIdentifier>{2A9D85B1-6B18-4C8E-8D77-5C3CCDAB155C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipKit\Zip Records">
+      <UniqueIdentifier>{00BC7841-C5B4-4321-A7A6-09737A8C480F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ZipKit\ZipKit-Prefix.pch" />
+    <ClangCompile Include="..\..\ZipKit\NSData+ZKAdditions.m">
+      <Filter>ZipKit\Categories</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\NSDate+ZKAdditions.m">
+      <Filter>ZipKit\Categories</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\NSDictionary+ZKAdditions.m">
+      <Filter>ZipKit\Categories</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\NSFileHandle+ZKAdditions.m">
+      <Filter>ZipKit\Categories</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\NSFileManager+ZKAdditions.m">
+      <Filter>ZipKit\Categories</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\NSString+ZKAdditions.m">
+      <Filter>ZipKit\Categories</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKArchive.m">
+      <Filter>ZipKit\Archive Objects</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKCDHeader.m">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKCDTrailer.m">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKCDTrailer64.m">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKCDTrailer64Locator.m">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKDataArchive.m">
+      <Filter>ZipKit\Archive Objects</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKDefs.m">
+      <Filter>ZipKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKFileArchive.m">
+      <Filter>ZipKit\Archive Objects</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKLFHeader.m">
+      <Filter>ZipKit\Zip Records</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\ZipKit\ZKLog.m">
+      <Filter>ZipKit\ZKLog</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>
