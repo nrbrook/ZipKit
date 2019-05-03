@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01249261227CA2D400CCD81B /* ZipKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22164E2B181ABEAA00ECDC0F /* ZipKit.h */; };
+		01249262227CA2ED00CCD81B /* ZKDefs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09FA17483A9A00F91524 /* ZKDefs.h */; };
+		01249263227CA2F000CCD81B /* GMAppleDouble.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F0A3C17483CC900F91524 /* GMAppleDouble.h */; };
+		01249264227CA2F400CCD81B /* GMAppleDouble+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09ED17483A9A00F91524 /* GMAppleDouble+ZKAdditions.h */; };
+		01249265227CA2F700CCD81B /* NSData+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09EE17483A9A00F91524 /* NSData+ZKAdditions.h */; };
+		01249266227CA2FA00CCD81B /* NSDate+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09EF17483A9A00F91524 /* NSDate+ZKAdditions.h */; };
+		01249267227CA2FE00CCD81B /* NSDictionary+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F017483A9A00F91524 /* NSDictionary+ZKAdditions.h */; };
+		01249268227CA30200CCD81B /* NSFileHandle+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F117483A9A00F91524 /* NSFileHandle+ZKAdditions.h */; };
+		01249269227CA30700CCD81B /* NSFileManager+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F217483A9A00F91524 /* NSFileManager+ZKAdditions.h */; };
+		0124926A227CA30A00CCD81B /* NSString+ZKAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F317483A9A00F91524 /* NSString+ZKAdditions.h */; };
+		0124926B227CA31B00CCD81B /* ZKArchive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F417483A9A00F91524 /* ZKArchive.h */; };
+		0124926C227CA31D00CCD81B /* ZKDataArchive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F917483A9A00F91524 /* ZKDataArchive.h */; };
+		0124926D227CA32100CCD81B /* ZKFileArchive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09FB17483A9A00F91524 /* ZKFileArchive.h */; };
+		0124926E227CA32700CCD81B /* ZKCDHeader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F517483A9A00F91524 /* ZKCDHeader.h */; };
+		0124926F227CA32D00CCD81B /* ZKCDTrailer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F617483A9A00F91524 /* ZKCDTrailer.h */; };
+		01249270227CA33200CCD81B /* ZKCDTrailer64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F717483A9A00F91524 /* ZKCDTrailer64.h */; };
+		01249271227CA33500CCD81B /* ZKCDTrailer64Locator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09F817483A9A00F91524 /* ZKCDTrailer64Locator.h */; };
+		01249272227CA33800CCD81B /* ZKLFHeader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09FC17483A9A00F91524 /* ZKLFHeader.h */; };
+		01249273227CA33C00CCD81B /* ZKLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB6F09FD17483A9A00F91524 /* ZKLog.h */; };
 		22164E18181ABDA400ECDC0F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22164E17181ABDA400ECDC0F /* libz.dylib */; };
 		22164E19181ABE4900ECDC0F /* ZKDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F09FA17483A9A00F91524 /* ZKDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22164E1A181ABE4900ECDC0F /* GMAppleDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F0A3C17483CC900F91524 /* GMAppleDouble.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,9 +128,28 @@
 		CB6F0A9617484BDE00F91524 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
+			dstPath = include/ZipKit;
 			dstSubfolderSpec = 16;
 			files = (
+				01249261227CA2D400CCD81B /* ZipKit.h in CopyFiles */,
+				01249262227CA2ED00CCD81B /* ZKDefs.h in CopyFiles */,
+				01249263227CA2F000CCD81B /* GMAppleDouble.h in CopyFiles */,
+				01249264227CA2F400CCD81B /* GMAppleDouble+ZKAdditions.h in CopyFiles */,
+				01249265227CA2F700CCD81B /* NSData+ZKAdditions.h in CopyFiles */,
+				01249266227CA2FA00CCD81B /* NSDate+ZKAdditions.h in CopyFiles */,
+				01249267227CA2FE00CCD81B /* NSDictionary+ZKAdditions.h in CopyFiles */,
+				01249268227CA30200CCD81B /* NSFileHandle+ZKAdditions.h in CopyFiles */,
+				01249269227CA30700CCD81B /* NSFileManager+ZKAdditions.h in CopyFiles */,
+				0124926A227CA30A00CCD81B /* NSString+ZKAdditions.h in CopyFiles */,
+				0124926B227CA31B00CCD81B /* ZKArchive.h in CopyFiles */,
+				0124926C227CA31D00CCD81B /* ZKDataArchive.h in CopyFiles */,
+				0124926D227CA32100CCD81B /* ZKFileArchive.h in CopyFiles */,
+				0124926E227CA32700CCD81B /* ZKCDHeader.h in CopyFiles */,
+				0124926F227CA32D00CCD81B /* ZKCDTrailer.h in CopyFiles */,
+				01249270227CA33200CCD81B /* ZKCDTrailer64.h in CopyFiles */,
+				01249271227CA33500CCD81B /* ZKCDTrailer64Locator.h in CopyFiles */,
+				01249272227CA33800CCD81B /* ZKLFHeader.h in CopyFiles */,
+				01249273227CA33C00CCD81B /* ZKLog.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
