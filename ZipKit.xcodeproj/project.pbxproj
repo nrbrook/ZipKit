@@ -463,7 +463,7 @@
 		CB6F09C5174838FC00F91524 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Karl Moskowski";
 			};
 			buildConfigurationList = CB6F09C8174838FC00F91524 /* Build configuration list for PBXProject "ZipKit" */;
