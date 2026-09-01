@@ -13,7 +13,7 @@
 #import "GMAppleDouble+ZKAdditions.h"
 #endif
 
-const NSUInteger ZKMaxEntriesPerFetch = 40;
+enum { ZKMaxEntriesPerFetch = 40 };
 
 @implementation  NSFileManager (ZKAdditions)
 
